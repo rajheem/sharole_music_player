@@ -81,7 +81,7 @@ function App() {
         else if(str=="E"){
             document.body.style.backgroundImage=`url(${img9})`
         }
-        else if(str=="OCT03"){
+        else if(str=="OCT05"){
             document.body.style.backgroundImage=`url(${img3})`
         }
         else if(str=="2022"){
@@ -232,8 +232,8 @@ function App() {
                     <audio className="clip" id="E" src={sound7} type="audio/mp3"/>
 
                 </button>
-                <button type="button" className="col-3 drum-pad btn btn-primary" id="drum-8" onClick={()=>{play("OCT03")}}>OCT03
-                    <audio className="clip" id="OCT03" src={sound8} type="audio/mp3"/>
+                <button type="button" className="col-3 drum-pad btn btn-primary" id="drum-8" onClick={()=>{play("OCT05")}}>OCT05
+                    <audio className="clip" id="OCT05" src={sound8} type="audio/mp3"/>
 
                 </button>
                 <button type="button" className="col-3 drum-pad btn btn-primary" id="drum-9" onClick={()=>{play("2022")}}>2022
